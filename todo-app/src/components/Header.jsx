@@ -1,5 +1,7 @@
 export function Header() {
     return (
-        <header>Aditya</header>
+        <header>
+            <h1>You have 3 open tasks </h1>
+        </header>
     )
 }

@@ -7,13 +7,12 @@ function App() {
   
    
   return (
-    <div>
-
+    <>
       <Header/>
       <Tabs />
       <TodoList />
       <TodoInput/>
-    </div>
+    </>
   )
 }
 
