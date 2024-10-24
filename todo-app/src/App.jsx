@@ -24,11 +24,11 @@ function App() {
         setTodos(newTodoList)
     }
 
-    function handleEditTodo() {
+    function handleEditTodo(index) {
 
     }
 
-    function handleDeleteTodo() {
+    function handleDeleteTodo(index) {
 
     }
 
@@ -37,7 +37,7 @@ function App() {
     <>
       <Header todos={todos}/>
       <Tabs selectedTab={selectedTab} setSelectedTab={setSelectedTab} todos={todos}/>
-      <TodoList todos={todos}/>
+      <TodoList selectedTab={selectedTab} todos={todos}/>
       <TodoInput handleAddTodo={handleAddTodo}/>
     </>
   )
